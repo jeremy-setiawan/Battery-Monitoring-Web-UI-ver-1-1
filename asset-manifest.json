@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Battery-Monitoring-Web-UI-ver-1-1/static/css/main.e9f3c807.chunk.css",
+    "main.js": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/main.fe0dac7b.chunk.js",
+    "main.js.map": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/main.fe0dac7b.chunk.js.map",
+    "runtime-main.js": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/runtime-main.fa71b948.js",
+    "runtime-main.js.map": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/runtime-main.fa71b948.js.map",
+    "static/js/2.7db54960.chunk.js": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/2.7db54960.chunk.js",
+    "static/js/2.7db54960.chunk.js.map": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/2.7db54960.chunk.js.map",
+    "static/js/3.5c4d80ca.chunk.js": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/3.5c4d80ca.chunk.js",
+    "static/js/3.5c4d80ca.chunk.js.map": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/3.5c4d80ca.chunk.js.map",
+    "index.html": "/Battery-Monitoring-Web-UI-ver-1-1/index.html",
+    "static/css/main.e9f3c807.chunk.css.map": "/Battery-Monitoring-Web-UI-ver-1-1/static/css/main.e9f3c807.chunk.css.map",
+    "static/js/2.7db54960.chunk.js.LICENSE.txt": "/Battery-Monitoring-Web-UI-ver-1-1/static/js/2.7db54960.chunk.js.LICENSE.txt",
+    "static/media/Login-Background.css": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/Background Cold.1ac25416.jpg",
+    "static/media/Icon Off Battery.c76ab33b.png": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/Icon Off Battery.c76ab33b.png",
+    "static/media/Icon On Battery.24af5118.png": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/Icon On Battery.24af5118.png",
+    "static/media/Icon Relay Off AC.1b4083bf.png": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/Icon Relay Off AC.1b4083bf.png",
+    "static/media/Icon Relay On AC.b0c4ef87.png": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/Icon Relay On AC.b0c4ef87.png",
+    "static/media/Login-Container.css": "/Battery-Monitoring-Web-UI-ver-1-1/static/media/winter.c6604cc9.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa71b948.js",
+    "static/js/2.7db54960.chunk.js",
+    "static/css/main.e9f3c807.chunk.css",
+    "static/js/main.fe0dac7b.chunk.js"
+  ]
+}
