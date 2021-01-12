@@ -136,7 +136,7 @@ export default function AppBarMaterial(props) {
             <MenuIcon />
           </IconButton>
           <section className={classes.titleSpace}>
-            <h1>AC Monitoring System</h1>
+            <h1>Battery Monitoring System</h1>
           </section>
           
           <div className={classes.growSpace} />

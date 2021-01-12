@@ -12,6 +12,7 @@ import  {ElectricPower,
     LoginBackground,
     ParameterAdjusment,
     RoomTemperature,
+    BatteryInfo,
     SetupContainer} from './Level-2'
 
 export {ValueSimpleContainer, 
@@ -26,6 +27,7 @@ export {ValueSimpleContainer,
     LoginBackground,
     ParameterAdjusment,
     RoomTemperature,
+    BatteryInfo,
     SetupContainer,
     AppBarMaterial
 }

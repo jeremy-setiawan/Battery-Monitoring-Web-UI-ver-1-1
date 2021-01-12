@@ -9,7 +9,7 @@ import {AppBarMaterial} from '../components'
 
 //Page-page di dalam layout
 import {HomePage, EventPage, StatusPage, ParameterPage} from '../pages';
-
+//asdf
 const PrimaryLayout = ({ match,history }) => (
   //<div className="primary-layout">
     <div>

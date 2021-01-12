@@ -14,7 +14,7 @@ function useFetchFirestore(docName){
     // ComponentDidMount
     useEffect(()=>{
         const updateData = () => {
-            firestoreDbRef.collection('Node-React').doc(docName).get().then((doc) => {
+            firestoreDbRef.collection('Baterai-Monitoring-V0').doc(docName).get().then((doc) => {
                 setData(data => ({ ...data, firestoreData:doc.data()}));
                 // PENTING : HARUS ARROW FUNC, AGAR data TDK JADI DEPENDENCY
                 // DAN MENGHINDARI PEMBUATAN INTERVAL BERULANG KALI
@@ -22,7 +22,7 @@ function useFetchFirestore(docName){
             //console.log("data updated");
         };
 
-        const updateTimer = setInterval(updateData,1000);
+        const updateTimer = setInterval(updateData,5000);
         //console.log("timer created");
 
         // ComponentWillUnmount

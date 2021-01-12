@@ -1,10 +1,12 @@
 /************************** Import library/fungsi ****************************/
 import React from 'react';
 
-import {ElectricPower,
-    EmbeddedData,
-    ParameterAdjusment,
-    RoomTemperature,
+import {
+    BatteryInfo,
+    //ElectricPower,
+    //EmbeddedData,
+    //ParameterAdjusment,
+    //RoomTemperature,
     SetupContainer} from '../../components';
 
     import './Home-Page.css';
@@ -19,15 +21,18 @@ export var firestoreDbRef = firebase.firestore();
 
 /************************ Deklarasi kelas/komponen ***************************/
 function HomePage(){
-    const [data] = useFetchFirestore('Main-Data');
+    const [data_status] = useFetchFirestore('Status');
+    const [data_voltage] = useFetchFirestore('Voltage');
+    const [data_information] = useFetchFirestore('Unit-Description');
     
     return(
         <section className="home-container">
-            <SetupContainer FirestoreData={data.firestoreData}/>
-            <ParameterAdjusment FirestoreData={data.firestoreData}/>
-            <RoomTemperature FirestoreData={data.firestoreData}/>
-            <ElectricPower FirestoreData={data.firestoreData}/>
-            <EmbeddedData/>
+            <SetupContainer FirestoreData={data_status.firestoreData}/>
+            <BatteryInfo FirestoreVoltage={data_voltage.firestoreData} FirestoreInformation={data_information.firestoreData}/>
+            {/* <ParameterAdjusment FirestoreData={data.firestoreData}/> */}
+            {/* <RoomTemperature FirestoreData={data.firestoreData}/> */}
+            {/* <ElectricPower FirestoreData={data.firestoreData}/> */}
+            {/* <EmbeddedData/> */}
         </section>
     )
 }

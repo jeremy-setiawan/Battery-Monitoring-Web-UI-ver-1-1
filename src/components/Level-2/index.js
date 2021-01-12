@@ -5,6 +5,7 @@ import LoginBackground from './Login-Background';
 import ParameterAdjusment from './Parameter-Adjusment';
 import RoomTemperature from './Room-Temperature';
 import SetupContainer from './Setup-Container';
+import BatteryInfo from './Battery-Info';
 
 export {
     ElectricPower,
@@ -13,5 +14,6 @@ export {
     LoginBackground,
     ParameterAdjusment,
     RoomTemperature,
+    BatteryInfo,
     SetupContainer
 };
